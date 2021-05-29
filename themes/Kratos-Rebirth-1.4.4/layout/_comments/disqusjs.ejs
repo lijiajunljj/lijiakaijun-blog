@@ -1,0 +1,69 @@
+<div>
+  <a target="_blank" href="https://github.com/lijiajunljj/lijiakaijun-blog/edit/master/source/<%- page.source %>">文章编辑</a>
+</div>
+<p>
+  点击切换到：<a class="comments-type active">Disqusjs</a> | <a class="comments-type">Valine</a> 评论系统
+</p>
+<style>
+  .comments-mode {
+    display:none
+  }
+  .comments-type.active {
+    background-color:#ff0
+  }
+  .show {
+    display:block
+  }
+</style>
+
+<div class="comments-mode show">
+    <div id="disqus_thread" class="post-comments"></div>
+<script>
+    $(function(){
+        window.DISQUS = null;
+        new DisqusJS({
+            shortname: '<%- theme.disqusjs.shortname %>',
+            siteName: '<%- theme.disqusjs.sitename %>',
+            identifier: '<%- page.path %>',
+            url: '<%- page.permalink %>',
+            api: '<%- theme.disqusjs.api %>',
+            apikey: '<%- theme.disqusjs.apikey %>',
+            admin: '<%- theme.disqusjs.admin %>',
+            adminLabel: '<%- theme.disqusjs.adminlabel %>'
+        });
+    });
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/SukkaW/DisqusJS">comments powered by DisqusJS.</a></noscript>
+</div>
+
+<div class="comments-mode">
+<div id="v-comments" class="post-comments"></div>
+<script>
+    new Valine({
+        el: '#v-comments',
+        appId: '<%- theme.valine.app_id %>',
+        appKey: '<%- theme.valine.app_key %>',
+        visitor: <%- theme.valine.visitor %>,
+        path: '<%- url_for(page.path) %>'
+    });
+</script>
+</div>
+
+<script>
+    var comments_type = document.getElementsByClassName("comments-type")
+    var comments_mode = document.getElementsByClassName("comments-mode")
+    for(var i=0;i<comments_type.length;i++){
+    comments_type[i].index = i; // 储存所有键值
+    comments_type[i].onclick = function(){
+      // 点击事件的实现功能，this就是点击的comments-type
+      for(var j=0;j<comments_type.length;j++){
+          comments_type[j].className = comments_type[j].className.replace(' active', '').trim();
+          comments_mode[j].className = comments_mode[j].className.replace(' show', '').trim();
+      }
+      
+      // 再给应该添加的对象添加className
+      this.className = this.className + ' active';
+      comments_mode[this.index].className = comments_mode[this.index].className + ' show';
+    };
+}
+</script>

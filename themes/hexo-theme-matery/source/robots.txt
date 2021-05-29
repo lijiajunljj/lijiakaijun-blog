@@ -1,0 +1,16 @@
+﻿User-agent:*             
+Disallow: /404.html
+Disallow: /friends
+Disallow: /contact
+Disallow: /archives
+Disallow: /about
+Disallow: /m
+Disallow: /tags
+Disallow: /posts/14021.html
+Disallow: /posts/35791.html
+Disallow: /posts/53744.html
+Disallow: /posts/11331.html
+Disallow: /posts/23205.html
+Disallow: /posts/1575.html
+Disallow: /posts/16107.html
+Disallow: /posts/46481.html

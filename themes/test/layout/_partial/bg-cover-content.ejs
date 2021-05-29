@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                <% if (config.subtitle && config.subtitle.length > 0) { %>
+                <%= config.subtitle %>
+                <% } else { %>
+                    subtitle
+                <% } %>
+            </div>
+
+            <div class="description center-align">
+                <% if (theme.subtitle.enable) { %>
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['<%= theme.subtitle.sub1 %>','<%= theme.subtitle.sub2 %>','<%= theme.subtitle.sub3 %>','<%= theme.subtitle.sub4 %>'],
+                        startDelay: <%= theme.subtitle.startDelay %>,
+                        typeSpeed: <%= theme.subtitle.typeSpeed %>,
+                        loop: <%= theme.subtitle.loop %>,
+                        backSpeed: <%= theme.subtitle.backSpeed %>,
+                        showCursor: <%= theme.subtitle.showCursor %>
+                    });
+                </script>
+                <% } else { %>
+                    <%= config.description %>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% if (theme.banner.enable) { %>
+<script>
+var randomBgIndex = Math.round( Math.random() * 10 ); //有多少张图就减去1再输进去
+    //因为在实际测试时，要等5秒才显示图片，所以这里重复一下显示代码
+        $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %>/medias/banner/' + randomBgIndex + '.jpg)');
+setInterval(function(){ //这里就开始重复运行代码了
+        var randomBgIndex = Math.round( Math.random() * 10 ); //这里还是一样的
+    //输出随机的背景图
+        $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %>/medias/banner/' + randomBgIndex + '.jpg)');
+},180000); //这里的5000指的是每隔5秒就执行一次{}里面的js代码
+</script>
+<% } else { %>
+<script>
+    $('.bg-cover').css('background-image', 'url(<%- theme.jsDelivr.url %>/medias/banner/0.jpg)'); //估计不会这样吧
+</script>
+<% } %>

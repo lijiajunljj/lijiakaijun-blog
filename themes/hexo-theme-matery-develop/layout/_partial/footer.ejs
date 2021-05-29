@@ -1,0 +1,127 @@
+<footer class="page-footer bg-color">
+    <%if(theme.music.enable&&theme.music.fixed){ %>
+        <%- partial('_widget/music') %>
+    <% } %>
+    <div class="container row center-align" style="margin-bottom: <% if (theme.time.enable) { %>15<% } else { %>0<% } %>px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year"><%- theme.time.year %></span>
+            <a href="<%- config.url %>" target="_blank"><%- config.author %></a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            <% if (theme.postInfo.totalCount) { %>
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color"><%= totalcount(site) %></span>&nbsp;字
+            <% } %>
+            <% let socialClass = '' %>
+            <% if (theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
+            <% socialClass = 'social-statis' %>
+            <% } %>
+            <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalTraffic) { %>
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            <% } %>
+            <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalNumberOfvisitors) { %>
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            <% } %>
+            <br>
+            <% if (theme.time.enable) { %>
+            <span id="sitetime">正在载入运行时间，请做和放宽...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "<%- theme.time.year %>";
+                    var startMonth = "<%- theme.time.month %>";
+                    var startDate = "<%- theme.time.date %>";
+                    var startHour = "<%- theme.time.hour %>";
+                    var startMinute = "<%- theme.time.minute %>";
+                    var startSecond = "<%- theme.time.second %>";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "这个小站已经在风雨中独自度过了 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "这个小站已经在风雨中独自度过了 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            <% } %>
+			 <br>
+            <script type="text/javascript">
+                var len=29;
+                var rnd=Math.floor(Math.random()*len);
+                var txt=new Array(len);
+                txt[0]="I like Minecraft";
+                txt[1]="我的世界";
+                txt[2]="Minecraft";
+                txt[3]="Windows 10";
+                txt[4]="始创于2019年9月14日10点08分";
+                txt[5]="o(*￣▽￣*)ブ";
+                txt[6]="苦力怕";
+                txt[7]="Hello,World!";
+                txt[8]="Windows";
+                txt[9]="二次元";
+                txt[10]="注意到B站上的GIF动画吗";
+                txt[11]="- _ -";
+                txt[12]="What are you doing?";
+                txt[13]="Nyan Cat";
+                txt[14]="初音未来!";
+                txt[15]="QwQ";
+                txt[16]="需要交换友链吗?";
+                txt[17]="病名は愛だった";
+                txt[18]="Creeper?";
+                txt[19]="按F12后看看我~";
+                txt[20]="Lijiakaijun的小博客"
+                txt[21]="千本樱"
+                txt[22]="Nyan Cat"
+                txt[23]="再继续刷新几次，你可能会看到一些奇奇怪怪的东西了~o(´^｀)o"
+                txt[24]="喵xN"
+                txt[25]="我太难了"
+                txt[26]="awsl"
+                txt[27]="单推鹿乃~"
+                txt[28]="Miku~"
+                txt[29]="咕咕咕"
+                document.write(txt[rnd]);
+                </script>
+            <br>
+            <% if (theme.icp.enable) { %>
+            <span id="icp"><img src="<%- theme.jsDelivr.url %>/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="<%- theme.icp.url %>" target="_blank"><%- theme.icp.text %></a>
+            </span>
+            <% } %>
+        </div>
+        <div class="col s12 m4 l4 social-link <%- socialClass %>"><%- partial('_partial/social-link') %></div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>

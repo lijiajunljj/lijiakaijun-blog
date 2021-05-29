@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.log
+public/
+themes/Kratos-Rebirth/node_modules/
+.deploy*/
+node_modules/

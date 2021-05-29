@@ -1,0 +1,148 @@
+# Global
+site_analytics: 
+hoster: <a href="https://github.io" target="_blank">Github Pages</a> or <a href="https://vercel.app" target="_blank">Vercel</a>
+site_logo: /favicon.png
+snow: false
+enableDark: true
+cdn: true
+indexPostType: false
+
+# Top Menu
+menu:
+  index: /
+  archives: /archives/
+  au:
+    submenu: true
+    about: /about/
+    update: /update/
+  contact: /contact/
+  friends: /friends/
+  like: /like
+  pay: /pay
+  sites:
+    submenu: true
+    others: /others/
+    random: /random.html
+    pindao: https://t.me/lijiakai
+    blogger: https://lijiakaijun.blogspot.com
+    author: https://candinya.com
+    project: https://github.com/Candinya/Kratos-Rebirth
+  search: /search/
+
+label:
+  index: <i class="fa fa-home" aria-hidden="true"></i>首页
+  archives: <i class="fa fa-archive" aria-hidden="true"></i>档案馆
+  au:
+    submenu: <i class="fa fa-address-book" aria-hidden="true"></i>关于
+    about: <i class="fa fa-address-card" aria-hidden="true"></i>关于我自己和网站
+    update: <i class="fa fa-cloud-upload" aria-hidden="true"></i>网站更新内容
+  contact: <i class="fa fa-commenting" aria-hidden="true"></i>留言版
+  friends: <i class="fa fa-address-book" aria-hidden="true"></i>友链
+  like: <i class="fa fa-heart" aria-hidden="true"></i>所喜欢的
+  pay: <i class="fa fa-money" aria-hidden="true"></i>Pay
+  sites:
+    submenu: <i class="fa fa-link"></i>其他链接
+    others: 其他的
+    random: <i class="fa fa-random" aria-hidden="true"></i>随机抽取~
+    blogger: 一个奇怪的链接
+    pindao: <i class="fa fa-telegram" aria-hidden="true"></i>频道
+    author: 主题作者博客
+    project: 主题项目链接
+    search: <i class="fa fa-search" aria-hidden="true"></i>搜索
+
+# Footer
+group_link: 
+contact:
+  weibo: 7337757865
+  mail: lijiajunljj@outlook.com
+  telegram: lijiakaijun
+  twitter: lijiakaijun
+  facebook: 
+  linkedin: 
+  fediverse:
+    instance: 
+    username: 
+  github: lijiajunljj
+  rss: //lijiakaijun.me/atom.xml
+timenotice: 本站已运行
+icp: 
+psr:
+  
+# Post Page
+posts:
+  show_cc: true
+  donate: true
+  share: true
+  comments: disqusjs
+
+# Disqus
+disqus:
+  shortname: 
+
+# DisqusJS
+disqusjs:
+  shortname: lijiakaijun
+  sitename: lijiakaijun
+  api: https://disqus.skk.moe/disqus/
+  apikey: KMU16gOxMF4AX6Is5aKv5O2x8iLiIWY8tVhaokv6vY1KTR9JUrcLCXGxKpuLEDJu
+  admin: lijiakaijun
+  adminlabel: lijia
+
+# Valine
+valine:
+  app_id: GKbU6pAC42Hgci3yzuNYNn0w-MdYXbMMI
+  app_key: OJ56tftp292ntCQW5iLWQboE
+  visitor: true
+
+# APlayer
+aplayer:
+  enabled: true
+  playlist: https://api.i-meto.com/meting/api?server=tencent&type=playlist&id=7472299373&r=0.04217614393310298
+  order: random
+
+# Widgets
+sidebar: right
+widgets:
+- about
+- toc
+- category
+- tagcloud
+- posts
+avatarUri: /favicon.png
+
+# Fancybox
+fancybox: true
+
+# 搜索
+search:
+  enable: true
+  path: search.json
+  field: post # page | post | all. Default post
+  content: true # Include post | page content
+
+# JavaScript相关的配置
+# 由于Javascript被压缩后难以有效编辑与生成，因而为了简化操作，将相关的配置项在生成文件时以独立的json文件写出，调用时使用fetch API获取。
+jsconfig:
+  main:
+    picCDN: true
+    createTime: "2019-09-14 10:08:00"
+    donateBtn: "咕咕咕"
+    scanNotice: "你要干嘛？"
+    qr_alipay: "/images/alipayqr.webp"
+    qr_wechat: "/images/wechatpayqr.webp"
+    siteLeaveEvent: false
+    leaveTitle: "{{{(>_<)}}}哦哟，崩溃啦~"
+    returnTitle: "(*´∇｀*)欸，又好啦~"
+    copyrightNotice: "该内容采用 CC BY-NC-SA 4.0 许可协议，著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
+
+# Site verify related
+site_verify:
+  google: jOi4iM44VrK4ENrdczDx_VtNqHH22-OANeJ79eH_nC8
+  baidu: code-mvq5mLso9B
+  bing: 37B06BA3B108C8529420F89DC3BD917C
+
+#highlight:
+highlight_theme: normal
+
+others:
+  black: true

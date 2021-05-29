@@ -1,0 +1,9 @@
+  <div class="page">
+  <div class="title"><%- page.title %></div>
+  <div class="content markdown-body">
+<%- page.content %>
+  <div class="markdown-body">
+  <% if (page.comments !== 'false') { %>
+    <%- partial('_others/pl') %>
+  <% } %>
+</div>

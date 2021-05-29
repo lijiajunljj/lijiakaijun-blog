@@ -1,0 +1,94 @@
+<head>
+  <!-- 元数据 -->
+  <meta charset="utf-8">
+  <link rel="icon" href="<%- theme.site_logo %>">
+  <title><% if (page.title) { %><%- page.title %> | <% } %><%- config.title %></title>
+  <meta name="author" content="<%- config.author  %>" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="format-detection" content="telphone=no, email=no" />
+  <% if (is_post()) { %>
+    <meta name="keywords" content="<%- strip_html(list_tags(page.tags, { show_count: false, style: 'none' })) %>" />
+  <% } else { %>
+    <meta name="keywords" content="<%- config.keywords %>" />
+  <% } %>
+  <%- open_graph({
+    image: full_url_for(page.pic ? page.path + page.pic : theme.site_logo),
+    twitter_site: "@" + theme.contact.twitter
+  }) %>
+  <% if (theme.contact.rss) {%><link rel="alternate" href="<%- theme.contact.rss %>" type="application/atom+xml"><% } %>
+  <!-- 站点验证相关 -->
+  <% if (theme.site_verify) { %>
+    <% if (theme.site_verify.google) { %>
+      <meta name="google-site-verification" content="<%- theme.site_verify.google %>" />
+    <% } %>
+    <% if (theme.site_verify.baidu) { %>
+      <meta name="baidu-site-verification" content="<%- theme.site_verify.baidu %>" />
+    <% } %>
+    <% if (theme.site_verify.bing) { %>
+      <meta name="msvalidate.01" content="<%- theme.site_verify.bing %>" />
+    <% } %>
+  <% } %>
+  <!-- 样式表文件 -->
+  <link rel="stylesheet" id="kratos-css" href="<% if (theme.cdn) { %>https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io<% } %>/css/kratosr.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="highlight-css" href="<% if (theme.cdn) { %>https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io<% } %>/css/highlight.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="fontawe-css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="nprogress-css" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" type="text/css" media="all">
+  <% if (theme.posts.comments == 'disqusjs') { %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2.6/dist/disqusjs.css">
+  <% } %>
+  <% if (theme.aplayer.enabled) { %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <% }%>
+  <% if (theme.fancybox){ %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <% } %>
+  <% if (theme.enableDark) { %>
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
+  <% } %>
+  <!-- 不得不预先加载的一些JS文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <% if (theme.posts.share) { %>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode_js@1.0.0/qrcode.min.js"></script>
+  <% } %>
+  <% if (theme.posts.comments === 'disqusjs') { %>
+    <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.2.6/dist/disqus.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+  <% } else if (theme.posts.comments === 'valine') { %>
+    <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+  <% } %>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script>
+ window.ga_tid = "UA-147974252-3"; // {String} The trackerID of your site.
+ window.ga_api = "https://empty-king-d9fc.lijiajunljj-fxdl.workers.dev"; // {String} The route of your cloudflare workers you just registered before.
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/cfga@1.0.3" async></script>
+ <script>
+ var _hmt = _hmt || [];
+ (function() {
+   var hm = document.createElement("script");
+   hm.src = "https://hm.baidu.com/hm.js?54a8defd21007c6ad87f6a4d67201086";
+   var s = document.getElementsByTagName("script")[0]; 
+   s.parentNode.insertBefore(hm, s);
+ })();
+ </script>
+ <% if (theme.others.black){ %>
+ <script type="text/javascript">
+   var obj=new Date();
+   var year=obj.getFullYear();
+   var month=obj.getMonth();
+   var day=obj.getDate();
+   console.log(year,month,day);
+   if (month == 3 && day == 4 || month == 11 && day == 13) {
+     document.write('<style>html{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);_filter:none}</style>')
+     console.log('默哀...')
+    } else {
+      console.log('一切早就确定下来了，无法修改')
+    }
+ </script>
+ <% } %>
+</head>
+
