@@ -163,3 +163,11 @@ baidu_url_submit:
 markdown:
   render:
     html: true
+    
+# 图片懒加载
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: false # optional
+  preloadRatio: 3 # optional, default is 1
