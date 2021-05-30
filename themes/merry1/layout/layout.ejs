@@ -5,11 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <% if (config.description) { %>
-    <meta name="description" content="<%= config.description %>">
-  <% } %>
-  <% if (config.keywords) { %>
-    <meta name="keywords" content="<%= config.keywords %>">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="format-detection" content="telphone=no, email=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <%- autoCanonical(config, page) %>
+    <% if (is_post()) { %>
+    <% if (page.excerpt) { %>
+      <meta name="description" itemprop="description" content="<%- page.excerpt ? strip_html(page.excerpt) : truncate(strip_html(post.content), {length: 120}) %>" />
+      <meta name="keywords" content="<%- strip_html(list_tags(page.tags, { show_count: false, style: 'none' })) %>" />
+    <% } else { %>
+      <meta name="description" itemprop="description" content="<%- config.description %>" />
+    <% } %>
+  <% } else { %>
+    <meta name="description" itemprop="description" content="<%- page.description || config.description %>" />
+    <meta name="keywords" content="<%- config.keywords %>" />
   <% } %>
   <% if (config.author) { %>
     <meta name="author" content="<%= config.author %>">
