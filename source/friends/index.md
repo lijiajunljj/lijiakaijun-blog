@@ -5,7 +5,10 @@ comments: true
 description: 好伙伴们在哪里~
 lk: /friends
 ---
+## 真·友链列表
+
 <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
+
 <div class="linkpage"><ul id="friendsList"></ul></div>
 
 <script type="text/javascript">
@@ -75,7 +78,7 @@ lk: /friends
 >
 >介绍：随便写写...
 >
->网站链接：https://lijiakaijun.me
+>网站链接：https://blog.lijiakaijun.cyou
 
 备注：网站图片如果挂了请换备用图片：https://s1.ax1x.com/2020/04/07/GcmGMd.jpg
 
@@ -83,12 +86,12 @@ lk: /friends
 
 请注意，以下要求**会按照实际情况降低/提高标准**
 
-#### 网站主体
+#### 网站访问体验
 
-1. 网站要有RSS提供订阅，且订阅链接能在[Feeds Pub](https://feeds.pub)正常识别订阅~~（非必要，但有的话可以提高通过率）~~
-2. 网站能正常访问，访问必须要使用https且有http强制跳转至https的操作
+1. ~~网站要有RSS提供订阅，且订阅链接能在[Feeds Pub](https://feeds.pub)正常识别订阅（非必要，但有的话可以提高通过率）~~我Feeds Pub订阅满了，这条作废
+2. 网站能在国内正常访问，访问必须要使用https且有http强制跳转至https的操作
 3. 网站访问时感到良好，无卡顿现象，加载超过30s未完成直接拒绝*（提交链接将会使用我的OPPO A37t进行实际测试）*
-4. 网站广告不应影响浏览体验，广告内容也不完全应涉及“网站内容”分节中第1条内容
+4. 网站广告不应影响浏览体验，广告内容也不应完全应涉及“网站内容”分节中第1条内容
 5. 网站要被起码一家搜索引擎正常收录，即使是一个主页链接（360和搜狗除外）（非必要，可提升通过率）
 
 #### 网站内容
@@ -100,17 +103,17 @@ lk: /friends
    - 诱导访客下载/访问包含病毒/木马的软件/网站/文件
    - 讨论任何国家的政治
    - 以任何形式的歧视任何人行为
-2. 网站必须要有大于或等于3篇的自制文章，且最近的文章需发表在半年内（需要密码才能访问的文章不算）
-3. 需要在显著位置写明许可协议，如有使用他人内容需要按照他人使用的许可协议进行对应操作
+2. 网站必须要有大于或等于3篇的自制文章，且最近的文章需发表在 31557600000000微秒 内（需要密码才能访问的文章不算）
+3. 如有版权声明，需要在显著位置写明许可协议，如有使用他人内容需要按照他人使用的许可协议进行对应操作
 
 #### 其他
 0. **申请请不要在disqus评论区提出，因为有可能被我要人工审核而无法显示**
 1. 通过概率在0%~70%之间，熟人概率可能会更高w~
 2. 先看完本人的网站（包括文章内容）再决定是否交换，否则因后续交往问题所引发的一切后果本人不负责
-3. 本人会不定期访问，如果出现违反以上要求（除去“网站内容”中的第2条）的直接撤掉友链（可能不会提醒），已添加的友链中没有本网站也会撤掉
+3. 本人会不定期访问，如果出现违反以上要求（除去“网站内容”中的第2条）的，可能在不通知的贵站的情况下直接撤掉友链，贵站已添加的友链中没有本网站也会撤掉
 4. 提交申请7天后没有任何答复请自行发邮件/去其他平台跟本人提友链的事
 5. 交换规则不定期更新，本人不会通知
-6. 网站超1年无法访问/找不到ip地址直接撤掉
+6. 网站超1年无法访问/找不到ip地址将会列为失踪名单，在确认无误后撤下友链
 
 ### 一些废话
 
@@ -118,7 +121,32 @@ lk: /friends
 
 （上面这句话已经不重要了，因为有人送我了个域名了[笑哭]）
 
-如果感觉访问慢的可以试试[这里](https://blog.lijiajunljj.tk)
+~~如果感觉访问慢的可以试试[这里](https://blog.lijiajunljj.tk)~~，都用Vercel部署了都
 
 其实以上要求大部分都可以达到吧...
 
+---
+
+## 自己加的单向友链
+
+<link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
+
+<div class="linkpage"><ul id="danxiangfriendsList"></ul></div>
+
+<script type="text/javascript">
+{
+    const myFriends = [
+        [" https://imrt.top", "https://cdn.jsdelivr.net/gh/rt-null/Blog/img_forintro/logo.png", "如题的小屋, "思考一切."],
+    ];
+
+
+
+    let friendNodes = '';
+    while (myFriends.length > 0) {
+        const rndNum = Math.floor(Math.random()*myFriends.length);
+        friendNodes += `<li><a target="_blank" href="${myFriends[rndNum][0]}"><img src="${myFriends[rndNum][1]}"><h4>${myFriends[rndNum][2]}</h4><p>${myFriends[rndNum][3]}</p></a></li>`;
+        myFriends.splice(rndNum, 1);
+    }
+    document.getElementById("danxiangfriendsList").innerHTML = friendNodes;
+}
+</script>
