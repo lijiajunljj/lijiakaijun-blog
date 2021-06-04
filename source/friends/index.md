@@ -5,7 +5,6 @@ comments: true
 description: 好伙伴们在哪里~
 lk: /friends
 ---
-# 主题刚换，需要大改，期间提交申请的将会延后至修改结束后
 <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
 <div class="linkpage"><ul id="friendsList"></ul></div>
 
@@ -21,6 +20,7 @@ lk: /friends
         ["https://krau.top/", "https://avatar.dawnlab.me/qq/1636648138", "krau’s blog", "年轻，就要折腾"],
         ["https://anillc.cn", "https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c?s=512", "Anillc’s blog", "最喜欢鹿乃啦XD"],
         ["http://lkkkk.xyz", "https://i.loli.net/2021/01/31/CD25rd37Lt6HyOF.png", "LK的小站", "普普通通的初三学生"],
+        ["https://xiaolii.com", "https://ae01.alicdn.com/kf/U1a423c679ff74f5bbb61638d6e5403b5V.jpg", "小理の小窝", "生而为爷 我很抱歉"],
     ];
 
 
