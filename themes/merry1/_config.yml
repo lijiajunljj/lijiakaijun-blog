@@ -4,12 +4,13 @@ avatar: /favicon.webp
 # 标题下的链接
 links:
 #  Github: https://github.com
-  关于: /about
-  网站更新: /update
-  友链: /friends
-  喜欢的: /like
-  Pay: /pay
-  其他: /others
+  关于: /about/
+  网站更新: /update/
+  友链: /friends/
+  喜欢的: /like/
+  Pay: /pay/
+  其他: /others/
+  留言: /contact/
 
 # Google Analytics
 ga: 'UA-147974252-3'
