@@ -129,14 +129,12 @@ lk: /friends
 
 ## 自己加的单向友链
 
-<link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
-
 <div class="linkpage"><ul id="danxiangfriendsList"></ul></div>
 
 <script type="text/javascript">
 {
     const myFriends = [
-        [" https://imrt.top", "https://cdn.jsdelivr.net/gh/rt-null/Blog/img_forintro/logo.png", "如题的小屋, "思考一切."],
+        ["https://imrt.top", "https://cdn.jsdelivr.net/gh/rt-null/Blog/img_forintro/logo.png", "如题的小屋", "思考一切."]
     ];
 
 
