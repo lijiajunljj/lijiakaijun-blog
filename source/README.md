@@ -12,23 +12,31 @@
 
 刚开始用的是[Gridea](https://gridea.dev)
 
-现在博客使用hexo生成，~~使用blinkfox的[matery主题](https://github.com/blinkfox/hexo-theme-matery)，在此顺便感谢之前使用的[高玩梁](https://gwliang.com)的修改主题~~
+现在博客使用hexo生成，使用群友+鹿友Anillc的[Merry](https://github.com/anillc/merry)主题
 
-使用Google Analytics、不蒜子、百度统计来进行网站统计
+~~曾经使用blinkfox的[matery主题](https://github.com/blinkfox/hexo-theme-matery)和Candinya的(Kratos-Rebirth)[https://github.com/Candinya/Kratos-Rebirth/]~~
 
-~~使用Cloudflare来进行域名解析服务~~
+~~在此顺便感谢之前使用的[高玩梁](https://gwliang.com)的修改主题~~
 
-~~域名使用Freenom~~ 域名由Eden Johnson提供，还是使用CloudFlare解析
+使用Vercel部署
+
+使用Google Analytics、CloudFlare统计来进行网站统计
+
+使用Cloudflare来进行域名解析服务
+
+~~域名之前使用Freenom~~
+
+~~后面域名由Eden Johnson提供，还是使用CloudFlare解析（lijiakaijun.me）但是虽然过期了但是我还是会感谢他的~~
 
 ## 其他
 
-引导站（测试地）：[likaijunlkj.github.io](https://likaijunlkj.github.io)
+引导站：[lijiakaijun.cyou](https://lijiakaijun.cyou)
 
-博客（包含引导站）更新内容：[点我去看看](https://lijiajunljj.github.io/update)
+博客（包含引导站）更新内容：[点我去看看](https://blog.lijiakaijun.cyou/update)
 
-我的联系方式：[点我去看眼](https://lijiajunljj.github.io/aboutl)
+我的联系方式：[点我去看眼](https://blog.lijiakaijun.cyou/aboutl)
 
 一个奇怪的网站：https://lijia.ml
 
 > 你可以匿名听！jiakaijun Li开始了问题框 | Peing -提问箱-
-> https://peing.net/zh-CN/lijia
+> https://peing.net/zh-CN/lijiakaijun
