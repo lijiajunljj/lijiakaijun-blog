@@ -62,29 +62,25 @@ date: 2020-12-06 09:45:41
 
 ### 想找我？在这些地方可以找到我w
 
-Email①： lijiajunljj712@gmail.com
+Email①： lijiajunljj712[at]gmail.com
 
-Email②： lijiajunljj@outlook.com
+Email②： lijiajunljj[at]outlook.com
 
-Email③：lijiakiajun@qq.com
+Email③：lijiakiajun[at]qq.com
 
-Email④：lijiakaijun@hotmail.com
-
-1038001923
+Email④：lijiakaijun[at]hotmail.com
 
 ~~微信：不开放联系方式~~
 
 Github：[lijiakaijun(@lijiajunljj)](https://github.com/lijiajunljj)，[@likaijunlkj](https://github.com/likaijunlkj)，[@lijiakaijun](https://github.com/lijiakaijun)
 
-twitter~~（不经常上）~~：[@lijiakaijnun](https://twitter.com/lijiakaijun)
+twitter~~（不经常上）~~：[@lijia_kai](https://twitter.com/lijia_kai)
 
 微博：[@lijiajunljj](https://weibo.com/u/7337757865)
 
 Bilibili：[@摸鱼中的初三wln](https://space.bilibili.com/480198701)
 
 酷安：[@lijiakai](https://www.coolapk.com/u/3779066)
-
-QQ音乐：[@ln](https://y.qq.com/portal/profile.html?uin=oKniNenzoKEAoz)
 
 网易云音乐（不常上）：[@摸鱼中的初三wln](https://music.163.com/#/user/home?id=1509875152)
 
@@ -109,17 +105,15 @@ QQ音乐：[@ln](https://y.qq.com/portal/profile.html?uin=oKniNenzoKEAoz)
 
 这个小网站在 **2019 年 09 月 14 日 10 点 08 分** 搭建 
 
-目前使用**Github Pages**托管此博客
+目前使用**Vercel**托管此博客
 
 在**2020年2月13日前**使用**Gridea**写博客，在这之后换为**Hexo**编辑
 
-使用**Google Analytics**、**不蒜子**和**百度统计**进行统计
+使用**Google Analytics**、**CloudFlare Analytics**进行统计
 
-目前大部分图片链接使用[gitee](https://gitee.com)进行缓冲加速
+评论区使用Waline和disqus
 
-评论区使用Valine和disqus
-
-感谢[@Eden Johnson](https://edenjohnson.cyou)提供域名：[lijiakaijun.me](https://lijiakaijun.me)（~~不过还是使用Cloudflare来进行域名解析服务~~）
+感谢[@Eden Johnson](https://edenjohnson.cyou)提供域名：[lijiakaijun.me](https://lijiakaijun.me)，即便域名已经过期（~~不过还是使用Cloudflare来进行域名解析服务~~）
 
 ---
 
@@ -130,4 +124,4 @@ https://peing.net/zh-CN/335000002326d8
 
 ---
 
-此页面最后更改于：2021.02.06 17:47
+此页面最后更改于：2021.06.30 21：44
