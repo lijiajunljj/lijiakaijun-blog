@@ -23,7 +23,6 @@ lk: /friends
         ["https://krau.top/", "https://avatar.dawnlab.me/qq/1636648138", "krau’s blog", "年轻，就要折腾"],
         ["https://anillc.cn", "https://gravatar.loli.net/avatar/5df946d48b36e6f8061cdfe7ebcdf75c?s=512", "Anillc’s blog", "最喜欢鹿乃啦XD"],
         ["http://lkkkk.xyz", "https://i.loli.net/2021/01/31/CD25rd37Lt6HyOF.png", "LK的小站", "普普通通的初三学生"],
-        ["https://xiaolii.com", "https://ae01.alicdn.com/kf/U1a423c679ff74f5bbb61638d6e5403b5V.jpg", "小理の小窝", "生而为爷 我很抱歉"],
     ];
 
 
@@ -134,7 +133,8 @@ lk: /friends
 <script type="text/javascript">
 {
     const myFriends = [
-        ["https://imrt.top", "https://cdn.jsdelivr.net/gh/rt-null/Blog/img_forintro/logo.png", "如题的小屋", "思考一切."]
+        ["https://imrt.top", "https://cdn.jsdelivr.net/gh/rt-null/Blog/img_forintro/logo.png", "如题的小屋", "思考一切."],
+        ["https://xiaolii.com", "https://ae01.alicdn.com/kf/U1a423c679ff74f5bbb61638d6e5403b5V.jpg", "小理の小窝", "生而为爷 我很抱歉"],
     ];
 
 
