@@ -20,7 +20,7 @@ lk: /others
 
 视频链接：[https://www.bilibili.com/video/BV1Y4411Z7RW](https://www.bilibili.com/video/BV1Y4411Z7RW)
 
-<!--备注：这个视频是在我入站前听到第一首用鹿乃的歌作为视频背景的视频，也是入站前看过的第一批内测系统展示视频-->
+> 备注：这个视频是在我入站前听到第一首用鹿乃的歌作为视频背景的视频，也是入站前看过的第一批内测系统展示视频
 
 <iframe src="https://player.bilibili.com/player.html?bvid=1Y4411Z7RW" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -30,13 +30,17 @@ lk: /others
 
 视频链接：[https://www.bilibili.com/video/BV15E411s7ha](https://www.bilibili.com/video/BV15E411s7ha)
 
-<!--备注：
-Build 7850 是 Windows 8 的第一个泄露的测试版本，于 2011 年 4 月 12 日通过套壳 Windows 7 首次泄露，首次泄露版本为 Enterprise x86 英语版本。2015 年 1 月 18 日，该 Build 的一些原版镜像泄露。
-Download link：BetaWorld Resource Area
-BGM：マインドボイス - 鹿乃
-【摘编自 BetaWorld 百科】
-（摘编自视频简介）
--->
+> 备注：
+> 
+> Build 7850 是 Windows 8 的第一个泄露的测试版本，于 2011 年 4 月 12 日通过套壳 Windows 7 首次泄露，首次泄露版本为 Enterprise x86 英语版本。2015 年 1 月 18 日，该 Build 的一些原版镜像泄露。
+> 
+> Download link：BetaWorld Resource Area
+> 
+> BGM：マインドボイス - 鹿乃
+> 
+> 【摘编自 BetaWorld 百科】
+> 
+> （摘编自视频简介）
 
 <iframe src="https://player.bilibili.com/player.html?bvid=15E411s7ha" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -44,15 +48,17 @@ BGM：マインドボイス - 鹿乃
 
 视频链接：[https://www.bilibili.com/video/BV1U441117TN](https://www.bilibili.com/video/BV1U441117TN)
 
-<!--备注：
-此视频是鹿乃专辑《いつかの約束を君に》中「ルカルカ☆ナイトフィーバー」的MV
-（上面的「マインドボイス」也是同个专辑的）
-
-还有，这个专辑是为了纪念samfree而做
-
-“这个专辑是鹿乃和samfree合作的，后者因病身故……（允悲），老实说当时我得知这个消息的时候也很震惊，Samfree才三十多岁……这个专辑在我看来或许是有特殊的纪念意义的吧。”
-（摘编自视频评论）
--->
+> 备注：
+> 
+> 此视频是鹿乃专辑《いつかの約束を君に》中「ルカルカ☆ナイトフィーバー」的MV
+> 
+> （上面的「マインドボイス」也是同个专辑的）
+> 
+> 还有，这个专辑是为了纪念samfree而做
+> 
+> “这个专辑是鹿乃和samfree合作的，后者因病身故……（允悲），老实说当时我得知这个消息的时候也很震惊，Samfree才三十多岁……这个专辑在我看来或许是有特殊的纪念意义的吧。”
+> 
+> （摘编自视频评论）
 
 <iframe src="//player.bilibili.com/player.html?aid=66476652&bvid=BV1U441117TN&cid=115287880&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -60,20 +66,23 @@ BGM：マインドボイス - 鹿乃
 
 视频链接：[https://www.bilibili.com/video/BV1x7411H7yA](https://www.bilibili.com/video/BV1x7411H7yA)
 
-<!--备注：
-这个视频是鹿乃专辑《yuanfen》中「午前0時の無力な神様」的MV
-
-值得一提的是，这个专辑是为了纪念鹿乃10周年而做的（作曲：鹿乃）
-
-（其实看专辑封面中部分内容是有一定的意义的，例如专辑图中鹿乃背后的春夏秋冬、手牵9条线、以“缘分”的拼音作为专辑名等）
-
-“这首歌是鹿乃新专辑yuanfen里面的歌，初回限定盘的DVD会附带这个MV，yuanfen这个名字意味着大家和鹿乃的相识就是一个缘分，缘分把大家紧密的联系在一起，不管是多年老粉还是最近才认识的新粉。所以在这里我个人希望大家都能尽自己的能力去购买一份yuanfen的实体盘，也能帮助鹿乃完成上o榜前10的梦想”
-（摘编自视频评论）
+> 备注：
+> 
+> 这个视频是鹿乃专辑《yuanfen》中「午前0時の無力な神様」的MV
+> 
+> 值得一提的是，这个专辑是为了纪念鹿乃10周年而做的（作曲：鹿乃）
+> 
+> （其实看专辑封面中部分内容是有一定的意义的，例如专辑图中鹿乃背后的春夏秋冬、手牵9条线、以“缘分”的拼音作为专辑名等）
+> 
+> “这首歌是鹿乃新专辑yuanfen里面的歌，初回限定盘的DVD会附带这个MV，yuanfen这个名字意味着大家和鹿乃的相识就是一个缘分，缘分把大家紧密的联系在一起，不管是多年老粉还是最近才认识的新粉。所以在这里我个人希望大家都能尽自己的能力去购买一份yuanfen的实体盘，也能帮助鹿乃完成上o榜前10的梦想”
+> 
+> （摘编自视频评论）
 
 相关专栏：
+
 1. https://www.bilibili.com/read/cv6078516 （鹿乃×田中秀和 以专辑《yuanfen》为主题的对谈 直面“死亡”找到了当前所欲传达之物）
+   
 2. https://www.bilibili.com/read/cv4991442 （迎来了活动开始十周年的鹿乃所探寻到的“自我”和日积月累中所结下的“缘”究竟是？）
--->
 
 <iframe src="//player.bilibili.com/player.html?aid=86909510&bvid=BV1x7411H7yA&cid=148489417&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -81,14 +90,14 @@ BGM：マインドボイス - 鹿乃
 
 视频链接：[https://www.bilibili.com/video/BV127411C7jS](https://www.bilibili.com/video/BV127411C7jS)
 
-<!--备注：
-这个日文翻唱其实是已经很厉害的了，特别是这次的日文翻译是鹿乃做的
-
-再次值得一提的是，这个视频发布时正好鹿乃B站账号正好临近100W粉，所以在该视频弹幕里见到“百万合影”也就不奇怪了
-
-“我一直在想，是什么让我愿意在三更半夜蹲动态，让我一直愿意为了鹿乃去买专辑，买周边，让我有了去日本留学的梦想。现在我知道了，原因与最初喜欢上鹿乃的原因一样，是因为她的歌声，是因为她真切而深沉地打动了我，是因为有歌声陪伴着我的每个日夜。在404Stella-rium的播放量突破500万，B站粉丝也即将100万，只要鹿乃过得开心，就够了吧”
-（摘编自视频评论）
--->
+> 备注：
+> 这个日文翻唱其实是已经很厉害的了，特别是这次的日文翻译是鹿乃做的
+> 
+> 再次值得一提的是，这个视频发布时正好鹿乃B站账号正好临近100W粉，所以在该视频弹幕里见到“百万合影”也就不奇怪了
+> 
+> “我一直在想，是什么让我愿意在三更半夜蹲动态，让我一直愿意为了鹿乃去买专辑，买周边，让我有了去日本留学的梦想。现在我知道了，原因与最初喜欢上鹿乃的原因一样，是因为她的歌声，是因为她真切而深沉地打动了我，是因为有歌声陪伴着我的每个日夜。在404Stella-rium的播放量突破500万，B站粉丝也即将100万，只要鹿乃过得开心，就够了吧”
+> 
+> （摘编自视频评论）
 
 <iframe src="//player.bilibili.com/player.html?aid=99465247&bvid=BV127411C7jS&cid=169764996&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -96,10 +105,10 @@ BGM：マインドボイス - 鹿乃
 
 视频链接：[https://www.bilibili.com/video/BV1ke411W7KP](https://www.bilibili.com/video/BV1ke411W7KP)
 
-<!--备注：
-这个视频是为了庆祝鹿乃出道5周年而自发组织制作的视频
-
-只不过我留意到这个视频时时时间已经过去了-->
+> 备注：
+> 这个视频是为了庆祝鹿乃出道5周年而自发组织制作的视频
+> 
+> 只不过我留意到这个视频时时时间已经过去了
 
 <iframe src="//player.bilibili.com/player.html?aid=243249431&bvid=BV1ke411W7KP&cid=193143411&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -107,13 +116,14 @@ BGM：マインドボイス - 鹿乃
 
 视频链接：[https://www.bilibili.com/video/BV1oJ411r7sm](https://www.bilibili.com/video/BV1oJ411r7sm)
 
-<!--备注：
-当我发现有这种事时我也挺惊讶的
-
-毕竟神乐Mea被炎上后出现这种事也是在大家的意料之外吧
-
-“经过查明，该事件是由境外组织策划的一起网络暴力事件。”
-（摘编自视频简介）-->
+> 备注：
+> 当我发现有这种事时我也挺惊讶的
+> 
+> 毕竟神乐Mea被炎上后出现这种事也是在大家的意料之外吧
+> 
+> “经过查明，该事件是由境外组织策划的一起网络暴力事件。”
+> 
+> （摘编自视频简介）
 
 <iframe src="//player.bilibili.com/player.html?aid=79270673&bvid=BV1oJ411r7sm&cid=135654173&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -121,12 +131,14 @@ BGM：マインドボイス - 鹿乃
 
 视频链接：[https://www.bilibili.com/video/BV14C4y1H7n9](https://www.bilibili.com/video/BV14C4y1H7n9)
 
-<!--备注：
-凉风说的那个和初音结婚的人其实挺惨的，从小被女孩子欺负，长大当社畜又被女同事排挤打压，逐渐不信任女人，近乎抑郁的时候听到了miku的歌，打开了心结，才正常生活，他的结婚典礼上没有家人，因为家人包括父母都不理解他，同好们也不理解，只有少量的朋友给了他支持，他还能重金买下这么多初音相关的东西，甚至包括一个等身玩偶，每天发的生活推的图都活灵活现，好像miku真的“活”了起来，他只是想报答miku对他的拯救，以自己的方式守护初音未来，因此他还自己重金买设备学会了制作V家曲和mmd，这人看起来是个想桃子吃的社畜，其实内心里，是个很重情重义的温柔的男人啊，世人皆笑近藤（苦主本名）痴，又有谁能不离不弃地爱一个虚拟的人？别人的眼里，他是失败的，但是在miku的陪伴和他自身的努力和勇气下，又有谁比他更高贵呢。这次真的希望他能走出阴影，或者再次找回老婆真的祝他好运[保佑][保佑][保佑]
-（摘编自视频评论）
-
-反正我是觉得他不在乎世俗的眼光就很厉害了,但是"你老婆的版权到期了"真的成了一个梗了[喜极而泣]
-（摘编自上面评论中的评论）-->
+> 备注：
+> 凉风说的那个和初音结婚的人其实挺惨的，从小被女孩子欺负，长大当社畜又被女同事排挤打压，逐渐不信任女人，近乎抑郁的时候听到了miku的歌，打开了心结，才正常生活，他的结婚典礼上没有家人，因为家人包括父母都不理解他，同好们也不理解，只有少量的朋友给了他支持，他还能重金买下这么多初音相关的东西，甚至包括一个等身玩偶，每天发的生活推的图都活灵活现，好像miku真的“活”了起来，他只是想报答miku对他的拯救，以自己的方式守护初音未来，因此他还自己重金买设备学会了制作V家曲和mmd，这人看起来是个想桃子吃的社畜，其实内心里，是个很重情重义的温柔的男人啊，世人皆笑近藤（苦主本名）痴，又有谁能不离不弃地爱一个虚拟的人？别人的眼里，他是失败的，但是在miku的陪伴和他自身的努力和勇气下，又有谁比他更高贵呢。这次真的希望他能走出阴影，或者再次找回老婆真的祝他好运[保佑][保佑][保佑]
+> 
+> （摘编自视频评论）
+> 
+> 反正我是觉得他不在乎世俗的眼光就很厉害了,但是"你老婆的版权到期了"真的成了一个梗了[喜极而泣]
+> 
+> （摘编自上面评论中的评论）
 
 <iframe src="//player.bilibili.com/player.html?bvid=14C4y1H7n9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
@@ -156,7 +168,7 @@ BGM：マインドボイス - 鹿乃
 
 ## 微信
 
-### 此部分被隐藏
+此部分被隐藏
 
 <!--
 
@@ -184,7 +196,7 @@ https://fehey.com/ 海岛心hey
 
 > （Gridea制作者）
 
-https://edenjohnson.me Eden Johnson 瞎写小屋
+https://edenjohnson.cyou Eden Johnson 瞎写小屋
 
 > 原链接 ~~https://blog.memz-group.page/~~  ~~MEMZ's blog!~~
 >

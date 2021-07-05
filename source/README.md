@@ -34,7 +34,7 @@
 
 博客（包含引导站）更新内容：[点我去看看](https://blog.lijiakaijun.cyou/update)
 
-我的联系方式：[点我去看眼](https://blog.lijiakaijun.cyou/aboutl)
+我的联系方式：[点我去看眼](https://blog.lijiakaijun.cyou/about)
 
 一个奇怪的网站：https://lijia.ml
 
